@@ -101,6 +101,14 @@ const Menu = () => {
             </List>
           </Paper>
         </Box>
+        <div style={{ display: "flex", gap: 30, marginTop: "2px" }}>
+          <Typography sx={{ color: "#8D8D8D", fontSize: "10px" }}>
+            2023&#169;logo name
+          </Typography>
+          <Typography sx={{ color: "#8D8D8D", fontSize: "10px" }}>
+            Developed By Anil Kumar Nayak
+          </Typography>
+        </div>
       </div>
     </div>
   );

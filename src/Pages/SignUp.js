@@ -37,6 +37,7 @@ const SignUp = () => {
           justifyContent: "center",
           alignItems: "center",
           minHeight: "100vh",
+          textAlign: "center",
         }}
       >
         <Card sx={{ width: "400px", height: "500px", margin: "10px" }}>

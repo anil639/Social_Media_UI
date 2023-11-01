@@ -8,21 +8,27 @@ const ContentSearchBar = () => {
       <Paper
         sx={{
           height: "55px",
-          padding: "10px",
-          justifyContent: "center",
+          display: "flex",
           alignItems: "center",
+          padding: "10px",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
+          <div style={{ display: "flex", alignItems: "center" }}>
             <SearchIcon />
             <input
               type="search"
               placeholder="Search Here ..."
-              style={{ border: "none" }}
+              style={{ border: "none", marginLeft: "5px", flex: 1 }}
             ></input>
           </div>
-          <div style={{ display: "flex", marginLeft: "auto" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginLeft: "auto",
+            }}
+          >
             <FilterIcon />
             <Typography>Filters</Typography>
           </div>

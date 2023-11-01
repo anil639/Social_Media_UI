@@ -28,10 +28,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route
-          path="/home"
-          element={user ? <Home /> : <Navigate to="/login" />}
-        />
+        <Route path="/" element={user ? <Home /> : <Navigate to="/login" />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<Error />} />

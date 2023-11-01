@@ -24,7 +24,7 @@ const Login = () => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, values.email, values.password)
       .then((res) => {
-        navigate("/home");
+        navigate("/");
       })
       .catch((err) => {
         setErrorMessage(err.message); //for error messages
@@ -38,6 +38,7 @@ const Login = () => {
           justifyContent: "center",
           alignItems: "center",
           minHeight: "100vh",
+          textAlign: "center",
         }}
       >
         <Card sx={{ width: "400px", height: "500px", margin: "10px" }}>

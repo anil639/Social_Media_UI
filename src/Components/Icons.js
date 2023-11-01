@@ -174,10 +174,10 @@ const SettingsIcon = () => {
             transform="translate(0 0)"
             fill="none"
             stroke="#8d8d8d"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.2"
-            fill-rule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.2"
+            fillRule="evenodd"
           />
           <circle
             id="Ellipse_7"
@@ -188,9 +188,9 @@ const SettingsIcon = () => {
             transform="translate(5.548 6.142)"
             fill="none"
             stroke="#8d8d8d"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.2"
           />
         </g>
       </svg>
@@ -213,7 +213,7 @@ const LogoutIcon = () => {
             d="M13.114,11.909a.659.659,0,0,0-.659-.659H1.909a.659.659,0,1,0,0,1.318H12.455A.659.659,0,0,0,13.114,11.909Z"
             transform="translate(0 -0.909)"
             fill="#88c2bb"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
           <path
             id="Path_31"
@@ -221,7 +221,7 @@ const LogoutIcon = () => {
             d="M5.451,7.458a.659.659,0,0,0-.932,0L1.443,10.534a.659.659,0,0,0,0,.932l3.076,3.076a.659.659,0,0,0,.932-.932L2.841,11l2.61-2.61A.659.659,0,0,0,5.451,7.458Zm7.527-2.39A5.839,5.839,0,0,0,7.77,8.3.659.659,0,0,1,6.594,7.7,7.153,7.153,0,0,1,20.144,11a7.335,7.335,0,0,1-.257,1.931.659.659,0,1,1-1.272-.347A6.02,6.02,0,0,0,18.826,11,5.89,5.89,0,0,0,12.978,5.068ZM6.885,13.411a.659.659,0,0,1,.886.291,5.839,5.839,0,0,0,5.208,3.23,5.765,5.765,0,0,0,3.475-1.16.659.659,0,1,1,.791,1.054,7.083,7.083,0,0,1-4.266,1.424A7.157,7.157,0,0,1,6.594,14.3.659.659,0,0,1,6.885,13.411Z"
             transform="translate(0)"
             fill="#88c2bb"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           />
         </g>
       </svg>
@@ -340,7 +340,7 @@ const SearchIcon = () => {
               transform="translate(1905.148 1897)"
               fill="none"
               stroke="#303030"
-              stroke-width="1.5"
+              strokeWidth="1.5"
             />
           </g>
         </g>
