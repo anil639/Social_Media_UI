@@ -43,7 +43,7 @@ const Login = () => {
         <Card sx={{ width: "400px", height: "500px", margin: "10px" }}>
           <CardContent>
             <Typography variant="h5" component="div">
-              Create An Account
+              Login
             </Typography>
             <form onSubmit={handleSubmit}>
               <TextField
