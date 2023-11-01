@@ -30,13 +30,13 @@ const Menu = () => {
   return (
     <div>
       <div>
-        <Paper sx={{ width: "240px", padding: "10px" }}>
+        <Paper sx={{ padding: "10px" }}>
           <Typography variant="h3">LOGO</Typography>
         </Paper>
       </div>
       <div style={{ marginTop: "40px" }}>
         <Box sx={{ display: "flex" }}>
-          <Paper sx={{ width: "240px", padding: "10px" }}>
+          <Paper sx={{ width: "100%", padding: "10px" }}>
             <List component="nav">
               {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
                 <ListItem

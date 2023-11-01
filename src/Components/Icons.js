@@ -1,6 +1,8 @@
 import React from "react";
 
 //icons as svg
+
+//for MenuItem
 const HomeIcons = () => {
   return (
     <div>
@@ -227,6 +229,210 @@ const LogoutIcon = () => {
   );
 };
 
+//for feeds
+const Hearticon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="23.52"
+        height="21.768"
+        viewBox="0 0 23.52 21.768"
+      >
+        <path
+          id="heart"
+          d="M23.363,5.427a7.172,7.172,0,0,0-9.6-.785A7.162,7.162,0,0,0,3.774,5.8a7.939,7.939,0,0,0,.393,10.479l7.3,7.633a3.174,3.174,0,0,0,4.587,0l7.3-7.633A7.933,7.933,0,0,0,23.363,5.427ZM21.7,14.582,14.4,22.2a.868.868,0,0,1-1.27,0l-7.3-7.658a5.429,5.429,0,0,1,0-7.363,4.876,4.876,0,0,1,7.058,0,1.142,1.142,0,0,0,1.67,0,4.876,4.876,0,0,1,7.058,0,5.429,5.429,0,0,1,.094,7.363Z"
+          transform="translate(-1.988 -3.121)"
+          fill="#101010"
+        />
+      </svg>
+    </div>
+  );
+};
+
+const CommentIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="22.024"
+        height="22.018"
+        viewBox="0 0 22.024 22.018"
+      >
+        <path
+          id="comment"
+          d="M25.564,20.848a10.889,10.889,0,1,0-4.716,4.718l4.69,1.172a.989.989,0,0,0,1.2-1.2Zm-2.012.109.865,3.461-3.461-.866a1,1,0,0,0-.723.1,8.915,8.915,0,1,1,3.417-3.417A.984.984,0,0,0,23.553,20.957Z"
+          transform="translate(-4.875 -4.875)"
+          fill="#101010"
+          stroke="#101010"
+          stroke-width="0.25"
+        />
+      </svg>
+    </div>
+  );
+};
+
+const ShareIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="18"
+        viewBox="0 0 20 18"
+      >
+        <path
+          id="share"
+          d="M21.707,11.293l-8-8A1,1,0,0,0,12,4V7.545A11.015,11.015,0,0,0,2,18.5V20a1,1,0,0,0,1.784.621,11.456,11.456,0,0,1,7.887-4.049c.05-.006.175-.016.329-.026V20a1,1,0,0,0,1.707.707l8-8a1,1,0,0,0,0-1.414ZM14,17.586V15.5a1,1,0,0,0-1-1c-.255,0-1.3.049-1.562.085a14.005,14.005,0,0,0-7.387,2.948A9.013,9.013,0,0,1,13,9.5a1,1,0,0,0,1-1V6.414L19.586,12Z"
+          transform="translate(-2 -3)"
+        />
+      </svg>
+    </div>
+  );
+};
+const SearchIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <g
+          id="Component_32"
+          data-name="Component 32"
+          transform="translate(0.14 0.14)"
+        >
+          <rect
+            id="Rectangle_1829"
+            data-name="Rectangle 1829"
+            width="20"
+            height="20"
+            transform="translate(-0.14 -0.14)"
+            fill="none"
+          />
+          <g
+            id="Group_2545"
+            data-name="Group 2545"
+            transform="translate(3.147 4.107)"
+          >
+            <g id="Path_1315" data-name="Path 1315" transform="translate(0 0)">
+              <path
+                id="Path_14"
+                data-name="Path 14"
+                d="M5.662,0A5.625,5.625,0,1,1,0,5.624,5.644,5.644,0,0,1,5.662,0Z"
+                transform="translate(0 0)"
+                fill="none"
+              />
+              <path
+                id="Path_15"
+                data-name="Path 15"
+                d="M5.663,1.187a4.438,4.438,0,1,0,4.468,4.438A4.458,4.458,0,0,0,5.663,1.187M5.663,0A5.625,5.625,0,1,1,0,5.625,5.644,5.644,0,0,1,5.663,0Z"
+                transform="translate(0 0)"
+                fill="#303030"
+              />
+            </g>
+            <path
+              id="Path_1188"
+              data-name="Path 1188"
+              d="M-1895.42-1888l3.006,3.036"
+              transform="translate(1905.148 1897)"
+              fill="none"
+              stroke="#303030"
+              stroke-width="1.5"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+  );
+};
+const FilterIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Component_39_2_"
+        data-name="Component 39 (2)"
+        width="26"
+        height="26"
+        viewBox="0 0 26 26"
+      >
+        <rect
+          id="Rectangle_1829"
+          data-name="Rectangle 1829"
+          width="26"
+          height="26"
+          fill="none"
+        />
+        <g id="Group_26" data-name="Group 26">
+          <line
+            id="Line_5"
+            data-name="Line 5"
+            x2="15"
+            transform="translate(5.5 6.5)"
+            fill="none"
+            stroke="#303030"
+            stroke-width="1.5"
+          />
+          <line
+            id="Line_6"
+            data-name="Line 6"
+            x2="15"
+            transform="translate(5.5 12.5)"
+            fill="none"
+            stroke="#303030"
+            stroke-width="1.5"
+          />
+          <line
+            id="Line_7"
+            data-name="Line 7"
+            x2="15"
+            transform="translate(5.5 18.5)"
+            fill="none"
+            stroke="#303030"
+            stroke-width="1.5"
+          />
+          <g
+            id="Ellipse_4"
+            data-name="Ellipse 4"
+            transform="translate(7 4)"
+            fill="#fbfbfb"
+            stroke="#303030"
+            stroke-width="1"
+          >
+            <circle cx="2.5" cy="2.5" r="2.5" stroke="none" />
+            <circle cx="2.5" cy="2.5" r="2" fill="none" />
+          </g>
+          <g
+            id="Ellipse_5"
+            data-name="Ellipse 5"
+            transform="translate(14 10)"
+            fill="#fbfbfb"
+            stroke="#303030"
+            stroke-width="1"
+          >
+            <circle cx="2.5" cy="2.5" r="2.5" stroke="none" />
+            <circle cx="2.5" cy="2.5" r="2" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6"
+            data-name="Ellipse 6"
+            transform="translate(8 16)"
+            fill="#fbfbfb"
+            stroke="#303030"
+            stroke-width="1"
+          >
+            <circle cx="2.5" cy="2.5" r="2.5" stroke="none" />
+            <circle cx="2.5" cy="2.5" r="2" fill="none" />
+          </g>
+        </g>
+      </svg>
+    </div>
+  );
+};
+
 export {
   HomeIcons,
   NotificationIcon,
@@ -237,4 +443,9 @@ export {
   MyProfileIcon,
   SettingsIcon,
   LogoutIcon,
+  Hearticon,
+  CommentIcon,
+  ShareIcon,
+  SearchIcon,
+  FilterIcon,
 };
