@@ -8,8 +8,9 @@ import {
   TextField,
   Button,
 } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const SignUp = () => {
+  const navigate = useNavigate();
   //initialize all input data to values
   const [values, setValues] = useState({
     name: "",
@@ -23,7 +24,7 @@ const SignUp = () => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, values.email, values.password)
       .then((res) => {
-        console.log(res);
+        navigate("/login");
       })
       .catch((err) => {
         setErrorMessage(err.message); //for error messages
